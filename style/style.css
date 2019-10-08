@@ -142,12 +142,10 @@ header {
 }
 
 #formcontainer .buttonholder {
-  width: 100%;
+  width: 80%;
 }
 
 #formcontainer .buttonholder button {
-  width: 30%;
-  height: 40px;
   background-color: #339236;
   color: white;
   font-size: 28px;
@@ -458,7 +456,7 @@ footer {
   }
   .infrotext div {
     width: 100%;
-    font-size: 6vw;
+    font-size: 3vw;
     padding: -70px 0 0 0;
   }
   #trans-box > div {
@@ -471,7 +469,12 @@ footer {
     padding: 2vw;
   }
   .buttonholder {
-    width: 12vw;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  #button {
+    padding: 10% 30%;
   }
   header {
     zoom: -2;
