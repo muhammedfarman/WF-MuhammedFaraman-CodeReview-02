@@ -33,6 +33,7 @@ function calculateInsurance(){
 		else if (input[2] == "2") { // Greece
 			result = (horsepower * 150) / (age + 3) + 150;
 		}
+		else textOut.innterText =" ERROR!"
 	}
 	
 	textOut.innerText = input[0] + " your insurance costs " + Math.floor(result) + " €";
